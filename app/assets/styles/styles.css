@@ -1,3 +1,15 @@
+$var: #34df;
+ 
 body{
+	color: $var;
 	padding: 20px;
+	margin: 10px;
+	columns: 300px 2;
+}
+
+.box{
+	a{
+		display: block;
+		padding: 10px;
+	}
 }
