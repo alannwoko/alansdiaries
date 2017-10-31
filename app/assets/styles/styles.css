@@ -1,15 +1,7 @@
-$var: #34df;
- 
-body{
-	color: $var;
-	padding: 20px;
-	margin: 10px;
-	columns: 300px 2;
-}
+@import "normalize.css";
+@import "base/_global.css";
+@import "base/_variables.css";
+@import "modules/_large-hero.css";
+@import "modules/_btn.css";
 
-.box{
-	a{
-		display: block;
-		padding: 10px;
-	}
-}
+
